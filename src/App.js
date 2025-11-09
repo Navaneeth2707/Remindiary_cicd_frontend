@@ -26,7 +26,7 @@ function App() {
       }
 
       try {
-        await axios.get('http://ip:5000/api/auth/verify-token', {
+        await axios.get('http://13.233.29.34:5000/api/auth/verify-token', {
           headers: {
             Authorization: `${token}`,
           },
